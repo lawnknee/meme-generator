@@ -1,0 +1,108 @@
+html {
+    font-family: Impact, Arial, sans-serif;
+    font-size: 18px;
+}
+
+header {
+    text-align: center;
+    background-color: lightgray;
+    padding: 50px 0px;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 300%;
+}
+h1, h4 {
+    margin: 0;
+}
+
+div > input {
+    float: right;
+    width: 80%;
+}
+
+#meme-input {
+    background-color: lightgray;
+    padding: 10px;
+    overflow: auto;;
+}
+button{
+    float: right;
+    background-color: peachpuff;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0px;
+    font-family: Impact, Arial, sans-serif;
+}
+
+.meme-item {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+.meme-img{
+    display: inline-block;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    position: relative;
+    margin: 1%;
+}
+img {
+    width: 500px;
+    border-radius: 2%;
+}
+.meme-img:hover{
+    opacity: 0.6;
+}
+
+.text {
+	font-family: Impact, Arial, sans-serif;
+	width: 500px;
+	font-size: 250%;
+	line-height: 1.1em;
+	letter-spacing: 1.5px;
+	color: black;
+   -webkit-text-fill-color: white; 
+   -webkit-text-stroke-width: 1.7px;
+   -webkit-text-stroke-color: black;
+   text-transform: uppercase;
+   overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  opacity: 1;
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    max-height: 50%;
+}
+.bottom {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+}
+
+.delete {
+	width: 500px;
+	height: 250px;
+	content: "X";
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -66%);
+	font-weight: 700;
+	text-align: center;
+	font-size: 1500%;
+	opacity: 0;
+    color: white;
+}
+
+.delete:hover {
+    opacity: 0.8;
+    z-index: 10;
+}
